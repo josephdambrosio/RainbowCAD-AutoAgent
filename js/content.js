@@ -13,16 +13,9 @@ chrome.runtime.sendMessage({function: "getDefaults"}, function(response) {
 		passBox.value = password;
 
 		document.querySelector("#loginbtn").click();
-
 	}
-	else if(window.location.href.toLowerCase().match('https://www.iamresponding.com/'))
+	if (window.location.href.toLowerCase().match('https://nc911mspprd/newworld.cadview/dashboard'))
 	{
-		if (document.getElementsByClassName("CookieConsent").length >= 1)
-		{
-			console.log(document.getElementsByClassName("CookieConsent"));
-			document.getElementsByClassName("CookieConsent")[0].getElementsByTagName('div')[1].getElementsByTagName('button')[0].click();
-		}
-
-		window.location.href = 'https://www.iamresponding.com/v3/Pages/memberlogin.aspx';
+			window.location.href = 'https://nc911mspprd/newworld.cadview/current-calls';
 	}
 });
