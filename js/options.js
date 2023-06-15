@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        setTimeout(function() {
 
 	          $("#message").slideToggle("slow");
-	          window.location.href = "https://nc911mspprd";
+	          window.location.href = "https://CADHOSTNAMEHERE";
 
 	        }, 3000);
 

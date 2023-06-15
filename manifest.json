@@ -1,5 +1,5 @@
 {
-   "author": "Jay Grayson & Joseph Dambrosio",
+   "author": "",
    "background": {
       "persistent": false,
       "scripts": [ "js/background.js" ]
@@ -8,7 +8,7 @@
       "js": [ "js/content.js" ],
       "matches": [ "*://nc911mspprd/*" ]
    } ],
-   "description": "Chrome extension for NCCDE WebCAD clients.  This script will automatically login the user that is set in the options.",
+   "description": "Chrome extension for NewWorld TylerCAD WebCAD clients.  This script will automatically login the user that is set in the options.",
    "icons": {
       "128": "images/icon-128.png",
       "16": "images/icon-16.png",

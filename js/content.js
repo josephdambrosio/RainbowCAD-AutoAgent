@@ -14,8 +14,8 @@ chrome.runtime.sendMessage({function: "getDefaults"}, function(response) {
 
 		document.querySelector("#loginbtn").click();
 	}
-	if (window.location.href.toLowerCase().match('https://nc911mspprd/newworld.cadview/dashboard'))
+	if (window.location.href.toLowerCase().match('https://CADHOSTNAMEHERE/newworld.cadview/dashboard'))
 	{
-			window.location.href = 'https://nc911mspprd/newworld.cadview/current-calls';
+			window.location.href = 'https://CADHOSTNAMEHERE/newworld.cadview/current-calls';
 	}
 });
